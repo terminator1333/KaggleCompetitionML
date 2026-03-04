@@ -16,13 +16,13 @@
 
 ---
 
-## 📌 Problem
+##  Problem
 
 Given a dataset of social media videos with features like author bio, video transcription, sound name, upload timestamp, follower count, region, and visual tags — predict a continuous **virality score** for unseen test videos.
 
 ---
 
-## 🧠 Our Approach
+##  Our Approach
 
 ### 1. Context-Aware Missing Data Imputation
 
@@ -62,15 +62,6 @@ DecisionTreeRegressor(
 ```
 
 All features standardized with `StandardScaler`. Performance validated with **5-fold cross-validation** before final submission.
-
----
-
-## 📂 Repository Structure
-
-```
-├── README.md
-└── ml.ipynb        # Full pipeline: preprocessing → feature engineering → training → submission
-```
 
 ---
 
